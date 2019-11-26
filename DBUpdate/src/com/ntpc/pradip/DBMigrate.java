@@ -8,8 +8,7 @@ import java.sql.SQLException;
 
 public class DBMigrate {
 	
-	
-	
+		
 	public void migrateData() throws ClassNotFoundException, SQLException{
 		
 		Connection con1 = null;
@@ -71,21 +70,15 @@ public class DBMigrate {
 						pstm1.executeBatch();
 						pstm1.close();
 						//con1.close();
-						
+					
 											
 					}
 					
 					
 				}
-					
-					
-					
-				
 				//pstm2.close();
 				//con2.close();
-				
 			
-				
 			}
 			
 		
